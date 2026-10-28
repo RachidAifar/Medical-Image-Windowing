@@ -1,0 +1,22 @@
+{
+  "brain": {
+    "center": 40,
+    "width": 80,
+    "sha256": "ebfcf6b767fb088f9e5080fcad5b7c960788f36d8d56bfe26ddcf42b7a35aab7"
+  },
+  "soft-tissue": {
+    "center": 40,
+    "width": 400,
+    "sha256": "75cfa04445a778d5a718cc224ef2b5bd608acfdbcaab9fd49103f371c61c3124"
+  },
+  "lung": {
+    "center": -600,
+    "width": 1500,
+    "sha256": "318f02d6a1fbe11a9c02e9fd5305105e3ddc6db515f4b721d69d88b3698fe0c0"
+  },
+  "bone": {
+    "center": 400,
+    "width": 1800,
+    "sha256": "5b12ba194d282a9b6404962c348961c0dd515cbb18d8e3dd0195416cae272905"
+  }
+}

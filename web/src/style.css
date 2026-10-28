@@ -1,0 +1,55 @@
+:root {
+  color-scheme: light dark;
+  font-family: system-ui, sans-serif;
+  background: #111;
+  color: #eee;
+}
+
+body {
+  margin: 0;
+  padding: 24px 16px;
+  display: flex;
+  justify-content: center;
+}
+
+#app {
+  width: min(100%, 512px);
+}
+
+.wl-widget {
+  display: grid;
+  gap: 12px;
+}
+
+.wl-widget canvas {
+  width: 100%;
+  image-rendering: pixelated;
+  background: #000;
+  cursor: crosshair;
+  touch-action: none;
+}
+
+.wl-presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.wl-presets button {
+  padding: 6px 12px;
+  border: 1px solid #555;
+  border-radius: 6px;
+  background: #222;
+  color: inherit;
+  cursor: pointer;
+}
+
+.wl-widget label {
+  display: grid;
+  gap: 4px;
+  font-size: 14px;
+}
+
+.wl-widget output {
+  font-variant-numeric: tabular-nums;
+}
